@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Knob.js</title>
+
+    <script src="knob.js"></script>
+    <link rel="stylesheet" href="knob.css"></link>
+
+    <style>
+    h1, p {
+      user-select: none;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Knob.js Example</h1>
+    <div id="knob"></div>
+    <p id="value"></p>
+
+    <script>
+    let k = new Knob(document.getElementById('knob'), 48, '#d86bff', '#767680', 0, 100, 0);
+    let val = document.getElementById('value');
+    k.onChange = v => val.innerText = `Value: ${Math.floor(v)}`;
+    </script>
+  </body>
+</html>
