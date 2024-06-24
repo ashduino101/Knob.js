@@ -1,7 +1,7 @@
 /**
  * Knob.js - A dead-simple JavaScript library providing a single Knob class featuring customizability and responsitivity.
  *
- * Copyright (c) 2023 Ashton Fairchild (ashduino101). Usable under the terms of the MIT License.
+ * Copyright (c) 2024 ashduino101. Usable under the terms of the MIT License.
  **/
 
 class Knob {
